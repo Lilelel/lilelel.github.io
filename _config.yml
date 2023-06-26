@@ -1,11 +1,11 @@
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-last-modified-at
-
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
 
 # Conversion
 markdown:    kramdown

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta
+      name="description"           
+      content="{{ page.content_desc }}">
+    <!-- Viewport width is slightly bigger, than the page wrapper -->
+    <meta 
+      name="viewport"
+      content="width=1010, initial-scale=1">
+    <!-- Add FA icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add base css to page -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/page.css">
+    <!-- Add css for social icons -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/icons.css">
+    <!-- Add css for blog posts -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/posts.css">
+    <!-- Add css for blog pagination page -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/pagination.css">
+
+    <link rel="icon" href="/assets/images/icons/icon.svg">
+    <link rel="mask-icon" href="/assets/images/icons/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png">
+
+    <!-- Adding MathJax 2.7.7 config -->
+    <script type="text/javascript" defer
+      src="/assets/js/mathjax/mathjax-2-config.js"></script>
+    </script>
+    <!-- Loading MathJax 2.7.7 -->
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=default">
+    </script>
+  </head>
+  <body>
+    <!-- Background image in div -->
+    <div id="body-bg">
+    </div>
+    <!-- Transparent wrapper rectangle -->
+    <div id="page-wrapper">
+      <!-- Clickable header image -->
+      <div id="header-image-container">
+        <a href="/">
+          <img class="header-image" src="/assets/images/header/Lilelel.svg" alt="Lilelel">
+        </a>
+      </div>
+
+      {% include navigation.html %}
+      {% include soc_icons.html %}
+      {{ content }}
+
+    </div>
+    <footer>
+      <div class="footer">
+        Website created and designed by Balázs Pál &#8212; &copy; 2019&#8211;2022
+      </div>
+    </footer>
+  </body>
+</html>

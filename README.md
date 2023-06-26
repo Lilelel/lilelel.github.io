@@ -1,4 +1,4 @@
 # lilelel.github.io
-Changed have been made!
+Changes have been made!
 
 

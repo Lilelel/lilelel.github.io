@@ -210,8 +210,13 @@ img {
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
+.nav__link:hover{
+    color: var(--first-color);
+}
 
-
+nav.icon{
+    font-size:1.2rem;
+}
 /* show menu */
 
 

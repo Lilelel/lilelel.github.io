@@ -3,7 +3,7 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: 3rem;
+    --header-height: 1rem;
 
     /*========== Colors ==========*/
     /* Change favorite color */
@@ -186,7 +186,7 @@ img{
 @media screen and (max-width: 776 px){
     .nav__menu{
         position: fixed;
-        bottom: 100px;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);

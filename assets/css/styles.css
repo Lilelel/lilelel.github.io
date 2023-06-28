@@ -234,6 +234,7 @@ img{
 
 .show-menu{
     bottom: 0;
+    display: flex;
 }
 
 

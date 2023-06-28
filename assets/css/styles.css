@@ -302,7 +302,7 @@ img{
 }
 
 .home__scroll-button{
-    color: var(--fisrt-color);
+    color: var(--first-color);
     transition: .3s;
 }
 
@@ -311,7 +311,7 @@ img{
 }
 
 .home__scroll-mouse{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .home__scroll-name{

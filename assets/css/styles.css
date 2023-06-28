@@ -204,7 +204,7 @@ img{
 .nav__link{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -214,7 +214,7 @@ img{
 }
 
 .nav__icon{
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 .nav__close{
